@@ -381,6 +381,7 @@ class SqfEntityProvider extends SqfEntityModelBase {
       }
     } catch (e) {
       print(e.toString());
+      rethrow;
     }
     return result;
   }
